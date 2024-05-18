@@ -11,7 +11,7 @@ Any developed RAG application is evaluated using GPT 4 model but due to cost con
 
 I have created my own test dataset. 10 short answer questions are prepared from the knowledge base document using online free AI tool. RAG model is evaluated based on answering of those 10 questions.
 
-Evaluation criterion:
+**Evaluation criterion:**
 1. Appropriateness 
 2. Relevance
 3. Hallucination
@@ -21,6 +21,10 @@ One feedback about response of the model and one feedback about hallucination of
 
 These evaluation results is stored in separate csv file for reference.
 
+**Observation**
+1. Best model hallucinated the response for 3/10 questions. But the hallucination is not very drastic.
+2. Model accepts if it does not find the relevant answer to the question.
+
 ### About two version of file in repository:
 
 Two main RAG application blocks:
@@ -29,7 +33,7 @@ Two main RAG application blocks:
 
 Here a good retriever make significant role. So in initial RAG model, I have used same phi3 model embedding as my embedding model for retriever. But the performance of the model is quite low. So I have used bert-base-uncased as my embedding for retriever, which significantly improved the performance. bert-base-uncased is trained on large amount of English data and produce embedding with good inner representation. 
 
-Score:
+**Score:**
 1. With phi3 embedding: 0.45/1
 2. With bert-base-uncased embedding : 0.65/1
 
