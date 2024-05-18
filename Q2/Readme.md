@@ -21,7 +21,7 @@ One feedback about response of the model and one feedback about hallucination of
 
 These evaluation results is stored in separate csv file for reference.
 
-About two version of file in repository:
+### About two version of file in repository:
 
 Two main RAG application blocks:
 1. Retriever
@@ -30,10 +30,10 @@ Two main RAG application blocks:
 Here a good retriever make significant role. So in initial RAG model, I have used same phi3 model embedding as my embedding model for retriever. But the performance of the model is quite low. So I have used bert-base-uncased as my embedding for retriever, which significantly improved the performance. bert-base-uncased is trained on large amount of English data and produce embedding with good inner representation. 
 
 Score:
-With phi3 embedding: 0.45/1
-With bert-base-uncased embedding : 0.65/1
+1. With phi3 embedding: 0.45/1
+2. With bert-base-uncased embedding : 0.65/1
 
-### Other ways to improve RAG application performance:
+Other ways to improve RAG application performance:
 1. Changing chunking size of the document.
 2. Reranking -  In re-ranking the documents are rearranged and filtered so that the most relevant ones are ranked highest.
 3.Query transformation
