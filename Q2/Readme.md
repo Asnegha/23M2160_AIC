@@ -1,6 +1,6 @@
 # Q2. Chatbot Using RAG and Attention Mechanism
 
-Developed a RAG system which answers questions regarding Tamilnadu government budget estimate for the year 2024-2025. I have chosen this document because the information regarding budget estimate is very recent and can not be included in any model training dataset. Here due to resource constraints, I have used only single document with 26 pages as knowledge base for RAG application. This RAG application from building till evaluation is completely open source and does not involve any paid API key usage. Also, it is easy to run in any local system and understand the basic building blocks of RAG application.
+**Developed a RAG system which answers questions regarding Tamilnadu government budget estimate for the year 2024-2025.** I have chosen this document because the information regarding budget estimate is very recent and can not be included in any model training dataset. Here due to resource constraints, I have used only single document with 26 pages as knowledge base for RAG application. This RAG application from building till evaluation is completely open source and does not involve any paid API key usage. Also, it is easy to run in any local system and understand the basic building blocks of RAG application.
 
 Two main RAG application blocks:
 1. Retriever : Best RAG application has bert-base-uncased as embedding model.
