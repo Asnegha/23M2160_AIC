@@ -26,6 +26,9 @@ These evaluation results is stored in separate csv file for reference.
 2. Model accepts if it does not find the relevant answer to the question.
 
 ### About two version of file in repository:
+Two version of file are:
+1. RAG_best.ipynb
+2. RAG_normal.ipynb
 
 Two main RAG application blocks:
 1. Retriever
