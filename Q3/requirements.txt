@@ -1,0 +1,5 @@
+numpy
+pandas
+matplotlib
+genism
+nltk
