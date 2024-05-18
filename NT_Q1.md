@@ -6,6 +6,7 @@ Let us consider our AI hackathon title as "LLM Prompt Recovery", a Kaggle compet
 
 ### Week 1 and 2: Problem Formulation, Data Acquisition and Preprocessing
 **Day 1-2:** Form a potential team with focused interest on this topic. Understand the theme and problem statements of the hackathon. 
+
 **Day 3-4:** Formulate the problem statement quantitatively. This competition already mentioned the metrics for evaluation as  Sharpened Cosine Similarity. If the metrics are not define, formulate one based on the task.
 
 This phase also include: 
