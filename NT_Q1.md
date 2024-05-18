@@ -27,8 +27,8 @@ Steps to create dataset:
 
 Things to take care:
 
-The model may start a response, "Sure, I can rewrite that as ____________" which will essentially put the prompt in the generated response. Edit this out because otherwise it would be too easy.
- "too violent" or "against the policies" response by the model should be taken care. 
+1. The model may start a response, "Sure, I can rewrite that as ____________" which will essentially put the prompt in the generated response. Edit this out because otherwise it would be too easy.
+ 2. "too violent" or "against the policies" response by the model should be taken care. 
 
 ### Week 3 and 4: Model Selection, Training, Evaluation and Deployment
 **Day 15-16:** After generating data, you need to train a model to predict the rewrite_prompt by inputting the original_text and the rewritten_text to the model
