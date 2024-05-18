@@ -55,6 +55,9 @@ Here a good retriever make significant role. So in initial RAG model, I have use
 5. run requirements.txt file for installing necessary libraries. 
 6. Now run the demo_rag.ipynb file to test the rag model. The file contain default question, change the question of your interest to test the rag model.
 
+**Reference:**
+1. Youtube video: https://www.youtube.com/watch?v=HRvyei7vFSM&t=709s
+2. https://huggingface.co/learn/cookbook/en/rag_evaluation
 
 
 
