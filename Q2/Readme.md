@@ -40,6 +40,8 @@ Here a good retriever make significant role. So in initial RAG model, I have use
 1. With phi3 embedding: 0.45/1
 2. With bert-base-uncased embedding : 0.65/1
 
+Run RAG_best.ipynb and RAG_normal.ipynb to verify the above mentioned score.
+
 **Other ways to improve RAG application performance:**
 1. Changing chunking size of the document.
 2. Reranking -  In re-ranking the documents are rearranged and filtered so that the most relevant ones are ranked highest.
